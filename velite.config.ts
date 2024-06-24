@@ -20,7 +20,6 @@ export const projects = defineCollection({
       slug: s.path(),
       title: s.string(),
       description: s.string(),
-      date: s.isodate(),
       tags: s.array(s.string()),
       body: s.mdx(),
       image: s.image(),

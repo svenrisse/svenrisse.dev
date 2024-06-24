@@ -2,11 +2,11 @@ import type { NavItem } from "~/types";
 
 export const navbarConfig: NavItem[] = [
   {
-    title: "Projects",
+    title: "Experience",
     url: "/",
   },
   {
-    title: "Experience",
-    url: "/experience",
+    title: "Project",
+    url: "/projects",
   },
 ];

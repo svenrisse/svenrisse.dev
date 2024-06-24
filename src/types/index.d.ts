@@ -23,7 +23,7 @@ export type Site = {
 export type Portfolio = {
   name: string;
   tagline: string;
-  bio: string;
+  bio: string[];
   resume: string;
   links: {
     github: string;
@@ -33,7 +33,7 @@ export type Portfolio = {
 };
 
 type defaultProfile = {
-  name?: string;
+  name: string;
   url?: string;
   image?: string;
 };
@@ -42,7 +42,7 @@ export type Experience = {
   title: string;
   employmentType: string;
   company: defaultProfile;
-  location?: defaultProfile;
+  location: defaultProfile;
   start: string;
   end: string;
   description: string[];

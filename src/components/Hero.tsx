@@ -20,7 +20,14 @@ export default function Hero() {
         </div>
       </div>
       <h3 className="mt-2 text-lg">{portfolioConfig.tagline}</h3>
-      <p className="my-6 max-w-2xl">{portfolioConfig.bio}</p>
+      <p className="my-6 max-w-2xl">
+        {portfolioConfig.bio.map((str, i) => (
+          <span key={i}>
+            {str}
+            <br />
+          </span>
+        ))}
+      </p>
       <Socials />
       <div className="text-muted-foreground mt-16 max-w-2xl space-y-2 rounded-lg border-l-4 py-2 pl-4">
         {Object.entries(toolConfig).map(([key, val], i) => (
