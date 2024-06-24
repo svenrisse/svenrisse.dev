@@ -4,10 +4,11 @@ export const portfolioConfig: Portfolio = {
   name: "Sven Risse",
   tagline: "Fullstack Developer",
   bio: [
-    "Hey ✌️ I'm Sven, a Junior Fullstack Webdeveloper from Germayn.",
-    "My journey in Web Development started in 2021 when I started learning the basics of HTML, CSS and JavaScript. ",
-    "Fast-forward to today and I've decided to pursue a career in Fullstack Development and am currently in training at Händlerbund. ",
-    "Most of my free time is spent reading science fiction and fantasy novels, cooking and powerlifting when not currently writing code and working on side projects. ",
+    "Hey, I'm Sven, a Fullstack Software Developer from Germany.  ✌️",
+    "My journey in Software Development started in 2021 when I started learning the basics of web development.",
+    "Completing my education in June 2024, I started working as a Fullstack Software Developer at Whiskey Tango Foxtrot, where I'm currently employed.",
+    "I pursue my passion for writing code in my free time, when I'm not reading fantasy & science-fiction novels, spending time with my dog or cooking vegan food.",
+    "Almost all my own work is on GitHub, so feel free to take a peek and ask any questions. :)",
   ],
   resume:
     "https://drive.google.com/file/d/1rgloFcdCLjqixk4EOQau4N86dAJX_Epp/view?usp=drive_link",
