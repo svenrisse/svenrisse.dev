@@ -6,7 +6,7 @@ export const navbarConfig: NavItem[] = [
     url: "/",
   },
   {
-    title: "Project",
+    title: "Projects",
     url: "/projects",
   },
 ];

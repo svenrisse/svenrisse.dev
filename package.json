@@ -4,10 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "next build",
-    "dev": "next dev",
-    "lint": "next lint",
-    "start": "next start"
+    "dev": "velite && next dev",
+    "build": "velite && bun run rss:build && next build",
+    "rss:build": "bun run rss.ts",
+    "start": "velite && next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.0",
