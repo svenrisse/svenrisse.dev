@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "velite && next dev",
-    "build": "velite && bun run rss:build && next build",
+    "build": "velite && next build",
     "start": "velite && next start",
     "lint": "next lint"
   },
