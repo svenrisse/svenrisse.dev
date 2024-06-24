@@ -11,10 +11,10 @@ export const experiencesConfig: Experience[] = [
     location: { name: "Remote" },
     start: "July, 2024",
     end: "Present",
-    description: ["TBD"],
+    description: ["TBD :)"],
   },
   {
-    title: "Vocational Education",
+    title: "Vocational Education / Ausbildung",
     employmentType: "Full-time",
     company: {
       name: "Haendlerbund GmbH",
@@ -23,7 +23,14 @@ export const experiencesConfig: Experience[] = [
     location: { name: "Remote / On site" },
     start: "September, 2022",
     end: "June, 2024",
-    description: ["", ""],
+    description: [
+      'Completed the "Ausbildung zum Fachinformatiker fuer Anwendungsentwicklung".',
+      "Studied the basics of web development: HTML, CSS & JavaScript.",
+      "Learned TypeScript, React.js & Next.js and started working in real projects as a fullstack developer",
+      "Worked in developer teams and utilized GitHub/Gitlab, Code Reviews & agile methods.",
+      "Contributed substantially to the Shopauskunft relaunch, implementing most of the frontend code & infrastructure.",
+      "Got used to working with tools like JIRA, Confluence, Figma & Slack.",
+    ],
   },
   {
     title: "Soldier",
