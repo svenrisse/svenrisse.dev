@@ -90,7 +90,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
                 size={18}
                 className="transform-gpu transition-transform duration-100 ease-in-out group-hover/back:-translate-x-1"
               />
-              <span className="sr-only">rdsx.dev</span>
+              <span className="sr-only">svenrisse.dev</span>
             </Link>
           </div>
           <Picture
