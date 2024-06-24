@@ -1,3 +1,9 @@
+export type Tools = {
+  Languages: string[];
+  Frontend: string[];
+  Backend: string[];
+  Development: string[];
+};
 export type Site = {
   name: string;
   title: string;
@@ -27,7 +33,7 @@ export type Portfolio = {
 };
 
 type defaultProfile = {
-  name: string;
+  name?: string;
   url?: string;
   image?: string;
 };
@@ -36,7 +42,7 @@ export type Experience = {
   title: string;
   employmentType: string;
   company: defaultProfile;
-  location: defaultProfile;
+  location?: defaultProfile;
   start: string;
   end: string;
   description: string[];

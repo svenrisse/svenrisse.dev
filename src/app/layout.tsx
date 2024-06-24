@@ -1,4 +1,5 @@
 import type { Metadata } from "next/types";
+import localFont from "next/font/local";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 import { siteConfig } from "~/config/site.config";
@@ -7,6 +8,12 @@ import { ThemeProvider } from "~/components/theme/ThemeProvider";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "../styles/globals.css";
+import "../styles/code.css";
+
+const fontHeading = localFont({
+  src: "../../assets/fonts/CalSans-SemiBold.woff2",
+  variable: "--font-heading",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
@@ -66,7 +73,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={cn(GeistSans.variable, GeistMono.variable)}>
+      <body
+        className={cn(
+          fontHeading.variable,
+          GeistSans.variable,
+          GeistMono.variable,
+        )}
+      >
         <Analytics />
         <SpeedInsights />
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
