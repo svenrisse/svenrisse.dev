@@ -95,7 +95,6 @@ export default function ProjectPage({ params }: ProjectPageProps) {
           </div>
           <Picture
             image={project.image}
-            imageDark={project.imageDark}
             width={600}
             height={400}
             alt={project.title}

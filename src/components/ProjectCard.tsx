@@ -54,7 +54,6 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <Link href={`/projects/${project.slugAsParams}`}>
           <Picture
             image={project.image}
-            imageDark={project.imageDark}
             width={250}
             height={100}
             quality={100}
